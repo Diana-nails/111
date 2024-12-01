@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgba(66, 66, 66, 0.871);
+  --color-top: #5cc40d;
+}
+.fon-chentr {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  padding: 1px;
+  margin-top: 40px;
+  border-radius: 40px;
+}
+.section-h1 {
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Marck Script", cursive;
+  text-shadow: -4px 4px 4px #444;
+  font-size: 29px;
+  color: var(--color-top);
+  width: 100%;
+}
+.h1-predlog {
+  color: var(--color-top);
+}
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("foto/fon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.p-1 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 70px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Marck Script", cursive;
+  font-size: 25px;
+  background-color: #6fa84069;
+}
+.nav > a {
+  color: #000;
+}
+.top-h2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.h2spisok {
+  padding-left: 23px;
+}
+.car-list {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.car-item {
+  border: 3px solid #050505;
+}
+.car-list div {
+  margin-bottom: 1px;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 1200px;
+}
+.car-list div img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 320px;
+
+  border-radius: 8px;
+}
+.map {
+  padding: 20px;
+}
+#form {
+  padding-right: 100px;
+}
+.form-group {
+  border: 3px solid #050505;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: var(--color-top);
+
+  max-width: 400px;
+  background-color: var(--primary-color);
+}
+.form-name > input,
+.form-mail > input,
+.form-number > input {
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  color: var(--color-top);
+}
+.form-message > textarea {
+  width: 200%;
+}
+.form-button {
+  text-align: center;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  height: 40px;
+}
+.button-go-form {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  background-color: var(--color-top);
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid var(--color-top);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button-go-form:hover {
+  background-color: #6fa840;
+  border-color: #6fa840;
+}
+
+.button-go-form:active {
+  background-color: #6fa840;
+  border-color: #6fa840;
+}
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.car-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.stolbik,
+.stolbik2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 48%;
+}
+.map-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.map,
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 48%;
+}
+.h2-forma {
+  color: var(--color-top);
+  background-color: var(--primary-color);
+  text-align: center;
+  border-radius: 20px;
+  padding: 2px;
+}
+.section-h2,
+.section-h2-2 {
+  width: 180px;
+  padding: 25px;
+  background-color: #f2f2f2;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-top);
+}
+.btn {
+  color: #000;
+  background-color: var(--color-top);
+  padding: 3px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.tel {
+}
